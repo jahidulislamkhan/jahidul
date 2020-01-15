@@ -44,7 +44,7 @@ if( ck_skin ){
 			ck_skin = "default";
 	}
 	skin      = document.getElementById('cv-skin');
-	skin.href = "_layout/css/skins/" + ck_skin + ".css";
+	skin.href = "layout/css/skins/" + ck_skin + ".css";
 	cookie( 'cv-skin', ck_skin );
 }
 if( ck_bg ){

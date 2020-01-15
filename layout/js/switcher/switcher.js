@@ -66,7 +66,7 @@ $(document).ready(function(){
 
 	function changeSkin(skin) {
 		$.cookie(cookieName, skin);
-		//$('#cv-skin').attr('href', '_layout/css/skins/' + skin + '.css');
+		//$('#cv-skin').attr('href', 'layout/css/skins/' + skin + '.css');
 		document.location.reload();
 	}
 
